@@ -1,1 +1,11 @@
+<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"index.css"}
+=======
+{
+"version": 3,
+"mappings": "AAGA,MAAO;EACH,OAAO,EAAE,IAAI;EACb,SAAS,EAAC,UAAU",
+"sources": ["../scss/index.scss"],
+"names": [],
+"file": "index.css"
+}
+>>>>>>> 3fb2b83da02522927fc52350a4f59f514f19f8c5
