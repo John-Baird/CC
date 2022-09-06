@@ -30,3 +30,18 @@ section{
 .form input, form textarea{
     width:100%;
 }
+
+.right {
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+    .left{
+        font-size: 30px;
+    }
+
+}
+a {
+    text-decoration: none;
+}
