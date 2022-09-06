@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+section {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.cont {
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px black;
+  background-color: rgb(184, 184, 184);
+  border-radius: 8px;
+}
+
+.form {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+=======
+
+>>>>>>> 3fb2b83da02522927fc52350a4f59f514f19f8c5
 
 /*# sourceMappingURL=contact.css.map */

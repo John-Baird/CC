@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+{"version":3,"sourceRoot":"","sources":["../scss/contact.scss"],"names":[],"mappings":"AAOA;EACI;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAIJ;EACI;EACA;EACA","file":"contact.css"}
+=======
 {
 "version": 3,
 "mappings": "",
@@ -5,3 +8,4 @@
 "names": [],
 "file": "contact.css"
 }
+>>>>>>> 3fb2b83da02522927fc52350a4f59f514f19f8c5
