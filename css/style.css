@@ -1,0 +1,9 @@
+.right {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center; }
+  .right .left {
+    font-size: 30px; }
+
+/*# sourceMappingURL=style.css.map */

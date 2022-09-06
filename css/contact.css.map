@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-{"version":3,"sourceRoot":"","sources":["../scss/contact.scss"],"names":[],"mappings":"AAOA;EACI;EACA;EACA;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAIJ;EACI;EACA;EACA","file":"contact.css"}
-=======
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAIA,OAAO;EACH,MAAM,EAAC,IAAI;EACX,KAAK,EAAC,IAAI;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;;AAGvB,KAAK;EACD,KAAK,EAAC,GAAG;EACT,SAAS,EAAC,KAAK;EACf,OAAO,EAAC,IAAI;EACZ,UAAU,EAAE,kBAAkB;EAC9B,gBAAgB,EAAC,OAAkB;EACnC,aAAa,EAAE,GAAG;;AAItB,KAAK;EACD,KAAK,EAAC,IAAI;EACV,UAAU,EAAC,IAAI;EACf,SAAS,EAAE,IAAI;;AAInB,0BAA0B;EACtB,KAAK,EAAC,IAAI",
+"sources": ["../scss/contact.scss"],
 "names": [],
 "file": "contact.css"
 }
->>>>>>> 3fb2b83da02522927fc52350a4f59f514f19f8c5
