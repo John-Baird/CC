@@ -2,11 +2,14 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
-  align-items: center; }
-  .right .left {
-    font-size: 30px; }
+  align-items: center;
+}
+.right .left {
+  font-size: 30px;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=style.css.map */

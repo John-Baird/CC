@@ -8,8 +8,12 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction:column;
+    
 }
-
+.body{
+    margin: 0;
+}
 .cont{
     width:90%;
     max-width:500px;
@@ -28,7 +32,11 @@ section{
 }
 
 .form input, form textarea{
-    width:100%;
+    width:97%;
+    padding:5px;
+    font-size:18px;
+    border:1px solid black;
+    margin-top:5px;
 }
 
 .right {
@@ -44,4 +52,26 @@ section{
 }
 a {
     text-decoration: none;
+}
+.textarea{
+    resize:vertical;
+
+}
+
+button{
+    width:100%;
+    border:none;
+    padding:20px;
+    outline:none;
+    font-size:24px;
+    border-radius: 8px;
+    color:rgb(23, 117, 199);
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover{
+    background-color:rgb(188, 188, 233);
+    transition: 1s;
 }
