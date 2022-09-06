@@ -89,7 +89,25 @@ button:hover{
 
 .success{
     background-color:lightgreen;
+    animation: status 4s ease delay forwards;
 }
 .error{
     background-color:lightcoral;
+    color:white;
+
+}
+
+@keyframes status{
+    0%{
+        opacity: 1s;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1s;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
 }
