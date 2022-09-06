@@ -1,19 +1,43 @@
 html, body {
   font-family: "IBM Plex Sans", sans-serif;
-}
+  background-color: #d0e8ea; }
 
 .right {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
-}
-.right .left {
-  font-size: 30px;
-}
+  background-color: aquamarine; }
+  .right .left {
+    font-size: 30px; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
+
+.letter {
+  color: #d0e8ea !important; }
+
+.calendarContent {
+  display: inline-block; }
+
+tbody {
+  background-color: aquamarine; }
+  tbody td {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    width: 10em;
+    height: 10em; }
+    tbody td p {
+      display: flex;
+      justify-content: space-evenly; }
+  tbody td:hover {
+    border-style: solid;
+    border-color: #7fb4ff; }
+
+.calendarWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
