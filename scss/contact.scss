@@ -76,3 +76,20 @@ button:hover{
     background-color:rgb(188, 188, 233);
     transition: 1s;
 }
+
+#status{
+    width:90%;
+    max-width:500px;
+    text-align: center;
+    padding:9px;
+    margin: px auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.success{
+    background-color:lightgreen;
+}
+.error{
+    background-color:lightcoral;
+}
