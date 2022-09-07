@@ -1,6 +1,16 @@
 html, body {
   font-family: "IBM Plex Sans", sans-serif;
-  background-color: rgb(208, 232, 234);
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+}
+
+.middle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.middle h1 {
+  margin: 15px 10px 15px 10px;
 }
 
 .right {
@@ -26,7 +36,7 @@ a:hover {
 }
 
 .letter {
-  color: rgb(208, 232, 234) !important;
+  color: rgb(255, 210, 210) !important;
 }
 
 .calendarContent {
@@ -55,6 +65,7 @@ tbody > td > p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
