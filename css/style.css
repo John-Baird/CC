@@ -1,6 +1,7 @@
 html, body {
   font-family: "IBM Plex Sans", sans-serif;
-  background-color: rgb(208, 232, 234);
+  background-image: url(../images/background.jpg);
+  background-size: cover;
 }
 
 .right {
@@ -26,7 +27,7 @@ a:hover {
 }
 
 .letter {
-  color: rgb(208, 232, 234) !important;
+  color: rgb(255, 210, 210) !important;
 }
 
 .calendarContent {

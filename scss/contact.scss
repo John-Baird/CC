@@ -1,7 +1,10 @@
 
 $fontFamily: 'IBM Plex Sans', sans-serif;
 
-html, body{ font-family: $fontFamily;}
+html, body{ font-family: $fontFamily;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
 
 .middle {
     display: flex;

@@ -1,9 +1,10 @@
 
 $fontFamily: 'IBM Plex Sans', sans-serif;
-$MainColor: rgb(208, 232, 234);
+$MainColor: rgb(255, 210, 210);
 html, body{
      font-family: $fontFamily;
-     background-color: $MainColor;
+     background-image: url(../images/background.jpg);
+     background-size: cover;
 
     }
 
