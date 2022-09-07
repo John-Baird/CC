@@ -3,6 +3,7 @@ $fontFamily: 'IBM Plex Sans', sans-serif;
 
 html, body{ font-family: $fontFamily;}
 
+
 section{
     height:90vh;
     width:100%;
@@ -73,7 +74,7 @@ button{
     transition: 1s;
 }
 button:hover{
-    background-color:rgb(188, 188, 233);
+    background-color:aquamarine;
     transition: 1s;
 }
 
@@ -87,15 +88,6 @@ button:hover{
     margin-top: 10px;
 }
 
-.success{
-    background-color:lightgreen;
-    animation: status 4s ease delay forwards;
-}
-.error{
-    background-color:lightcoral;
-    color:white;
-
-}
 
 @keyframes status{
     0%{
