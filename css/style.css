@@ -1,25 +1,32 @@
 html, body {
   font-family: "IBM Plex Sans", sans-serif;
-  background-color: #d0e8ea; }
+  background-color: rgb(208, 232, 234);
+}
 
 .right {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
-  background-color: aquamarine; }
-  .right .left {
-    font-size: 30px; }
+  background-color: #a2595a;
+  margin-bottom: 100px;
+}
+.right .left {
+  font-size: 30px;
+}
 
 a {
   text-decoration: none;
-  color: inherit; }
+  color: inherit;
+}
 
 .letter {
-  color: #d0e8ea !important; }
+  color: rgb(208, 232, 234) !important;
+}
 
 .calendarContent {
-  display: inline-block; }
+  display: inline-block;
+}
 
 tbody td {
   border-style: solid;
@@ -27,18 +34,22 @@ tbody td {
   border-color: black;
   width: 10em;
   height: 10em;
-  background-color: #cb997e; }
+  background: #ba4c4e;
+}
 tbody td:hover {
   border-style: solid;
-  border-color: #b7b7a4; }
+  background-color: #d68f90;
+}
 
 tbody > td > p {
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+}
 
 .calendarWrapper {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 /*# sourceMappingURL=style.css.map */
