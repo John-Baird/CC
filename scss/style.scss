@@ -11,12 +11,7 @@ html, body{
     flex-flow:row nowrap;
     justify-content: space-around;
     align-items: center;
-<<<<<<< HEAD
-    background-color: #d78533; 
-    margin-bottom: 150px;
-=======
     background-color: aquamarine;
->>>>>>> ef604780d9cf7b4073a059d860b3d95a1f20ed67
     .left{
         font-size: 30px;
     }
@@ -38,22 +33,22 @@ a {
 }
 
 tbody {
-    background-color: #cb997e
-  
     
-}
-
-
-tbody > td {
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    width: 10em;
-    height: 10em;
-}
-tbody > td:hover {
-    border-style: solid;
-    border-color: #b7b7a4;
+    td {
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+        width: 10em;
+        height: 10em;
+        background-color: #cb997e
+    }
+    td:hover
+    {
+        border-style: solid;
+        border-color: #b7b7a4;
+    }
+    
+    
 }
 
 tbody > td > p {

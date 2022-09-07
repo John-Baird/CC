@@ -2,12 +2,6 @@ html, body {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-.middle {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 section {
   height: 90vh;
   width: 100%;
@@ -26,7 +20,7 @@ section {
   max-width: 500px;
   padding: 20px;
   box-shadow: 0px 0px 20px black;
-  background-color: #d78533;
+  background-color: #ba4c4e;
   border-radius: 8px;
 }
 
@@ -50,7 +44,8 @@ section {
   justify-content: space-around;
   align-items: center;
 }
-.right .left {
+
+.left {
   font-size: 30px;
 }
 
@@ -70,7 +65,7 @@ button {
   outline: none;
   font-size: 24px;
   border-radius: 8px;
-  color: rgb(23, 117, 199);
+  color: #793031;
   margin-top: 10px;
   text-align: center;
   cursor: pointer;

@@ -3,11 +3,6 @@ $fontFamily: 'IBM Plex Sans', sans-serif;
 
 html, body{ font-family: $fontFamily;}
 
-.middle {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 
 section{
     height:90vh;
@@ -26,7 +21,7 @@ section{
     max-width:500px;
     padding:20px;
     box-shadow: 0px 0px 20px black;
-    background-color:#d78533;
+    background-color:#ba4c4e;
     border-radius: 8px;
 
 }
@@ -51,12 +46,12 @@ section{
     flex-flow:row nowrap;
     justify-content: space-around;
     align-items: center;
-
-    .left{
-        font-size: 30px;
-    }
-
 }
+
+.left{
+    font-size: 30px;
+}
+
 a {
     text-decoration: none;
     color: inherit; 
@@ -73,7 +68,7 @@ button{
     outline:none;
     font-size:24px;
     border-radius: 8px;
-    color:rgb(23, 117, 199);
+    color:#793031;
     margin-top: 10px;
     text-align: center;
     cursor: pointer;
