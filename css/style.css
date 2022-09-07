@@ -8,7 +8,8 @@ html, body {
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
-  background-color: #9a2a2b;
+  background-color: #db9e4f;
+  margin-bottom: 150px;
 }
 .right .left {
   font-size: 30px;
@@ -27,7 +28,7 @@ a {
 }
 
 tbody {
-  background-color: #9a2a2b;
+  background-color: #ba4c4e;
 }
 tbody td {
   border-style: solid;
@@ -42,7 +43,7 @@ tbody td p {
 }
 tbody td:hover {
   border-style: solid;
-  border-color: #bc6c25;
+  background-color: #ce7c7d;
 }
 
 .calendarWrapper {
