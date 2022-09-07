@@ -8,7 +8,8 @@ html, body {
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
-  background-color: aquamarine;
+  background-color: #a2595a;
+  margin-bottom: 100px;
 }
 .right .left {
   font-size: 30px;
@@ -33,11 +34,11 @@ tbody td {
   border-color: black;
   width: 10em;
   height: 10em;
-  background-color: #cb997e;
+  background: #ba4c4e;
 }
 tbody td:hover {
   border-style: solid;
-  border-color: #b7b7a4;
+  background-color: #d68f90;
 }
 
 tbody > td > p {
