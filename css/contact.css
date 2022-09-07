@@ -15,7 +15,7 @@ section {
   height: 90vh;
   width: 100%;
   display: flex;
-  justify-content: center;
+  margin-top: 100px;
   align-items: center;
   flex-direction: column;
 }
@@ -63,6 +63,11 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: white;
+  transition: 0.2s;
+}
+
 .textarea {
   resize: vertical;
 }
@@ -82,7 +87,7 @@ button {
 }
 
 button:hover {
-  background-color: aquamarine;
+  background-color: #f0c5c6;
   transition: 1s;
 }
 
