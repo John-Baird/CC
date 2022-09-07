@@ -3,6 +3,11 @@ $fontFamily: 'IBM Plex Sans', sans-serif;
 
 html, body{ font-family: $fontFamily;}
 
+.middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 section{
     height:90vh;

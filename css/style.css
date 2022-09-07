@@ -1,55 +1,43 @@
 html, body {
   font-family: "IBM Plex Sans", sans-serif;
-  background-color: rgb(208, 232, 234);
-}
+  background-color: #d0e8ea; }
 
 .right {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
-  background-color: #db9e4f;
-  margin-bottom: 150px;
-}
-.right .left {
-  font-size: 30px;
-}
+  background-color: aquamarine; }
+  .right .left {
+    font-size: 30px; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .letter {
-  color: rgb(208, 232, 234) !important;
-}
+  color: #d0e8ea !important; }
 
 .calendarContent {
-  display: inline-block;
-}
+  display: inline-block; }
 
 tbody {
-  background-color: #ba4c4e;
-}
-tbody td {
-  border-style: solid;
-  border-width: 3px;
-  border-color: black;
-  width: 10em;
-  height: 10em;
-}
-tbody td p {
+  background-color: #cb997e td;
+    background-color-border-style: solid;
+    background-color-border-width: 3px;
+    background-color-border-color: black;
+    background-color-width: 10em;
+    background-color-height: 10em; }
+  tbody td:hover {
+    border-style: solid;
+    border-color: #b7b7a4; }
+
+tbody > td > p {
   display: flex;
-  justify-content: space-evenly;
-}
-tbody td:hover {
-  border-style: solid;
-  background-color: #ce7c7d;
-}
+  justify-content: space-evenly; }
 
 .calendarWrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
