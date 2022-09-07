@@ -11,7 +11,12 @@ html, body{
     flex-flow:row nowrap;
     justify-content: space-around;
     align-items: center;
+<<<<<<< HEAD
+    background-color: #d78533; 
+    margin-bottom: 150px;
+=======
     background-color: aquamarine;
+>>>>>>> ef604780d9cf7b4073a059d860b3d95a1f20ed67
     .left{
         font-size: 30px;
     }
@@ -20,6 +25,7 @@ html, body{
 }
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 

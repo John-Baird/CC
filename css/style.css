@@ -1,43 +1,17 @@
-html, body {
-  font-family: "IBM Plex Sans", sans-serif;
-  background-color: #d0e8ea; }
+/* Error: expected "{".
+ *    ,
+ * 15 |     background-color: #d78533; 
+ *    |                              ^
+ *    '
+ *   scss\style.scss 15:30  root stylesheet */
 
-.right {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
-  background-color: aquamarine; }
-  .right .left {
-    font-size: 30px; }
-
-a {
-  text-decoration: none; }
-
-.letter {
-  color: #d0e8ea !important; }
-
-.calendarContent {
-  display: inline-block; }
-
-tbody {
-  background-color: #cb997e td;
-    background-color-border-style: solid;
-    background-color-border-width: 3px;
-    background-color-border-color: black;
-    background-color-width: 10em;
-    background-color-height: 10em; }
-  tbody td:hover {
-    border-style: solid;
-    border-color: #b7b7a4; }
-
-tbody > td > p {
-  display: flex;
-  justify-content: space-evenly; }
-
-.calendarWrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-/*# sourceMappingURL=style.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 15 \2502      background-color: #d78533; \d\a    \2502                               ^\a    \2575 \a   scss\\style.scss 15:30  root stylesheet';
+}
