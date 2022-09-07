@@ -1,12 +1,27 @@
 
 $fontFamily: 'IBM Plex Sans', sans-serif;
 $MainColor: rgb(255, 210, 210);
+
+
 html, body{
      font-family: $fontFamily;
      background-image: url(../images/background.jpg);
      background-size: cover;
+     
+}
 
+
+
+.middle {
+display: flex;
+flex-direction: row;
+align-items: center;
+    
+    h1 {
+    margin: 15px 10px 15px 10px;
     }
+    
+}
 
 .right {
     display: flex;
@@ -40,6 +55,7 @@ a:hover { color: white; transition: .2s; }
 
 tbody {
     
+
     td {
         border-style: solid;
         border-width: 3px;
@@ -65,4 +81,5 @@ tbody > td > p {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }

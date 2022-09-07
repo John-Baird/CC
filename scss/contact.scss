@@ -10,9 +10,11 @@ html, body{ font-family: $fontFamily;
     display: flex;
     flex-direction: row;
     align-items: center;
+
     h1 {
-        margin: 0px 10px;
+        margin: 15px 10px 15px 10px;
     }
+
 }
 
 section{
@@ -22,7 +24,7 @@ section{
     margin-top: 100px;
     align-items: center;
     flex-direction:column;
-    
+    margin-bottom: 100px;
 }
 .body{
     margin: 0;
@@ -57,6 +59,8 @@ section{
     flex-flow:row nowrap;
     justify-content: space-around;
     align-items: center;
+    background-color: #a2595a;
+    
 }
 
 .left{
